@@ -332,3 +332,8 @@
     </div>
   </div>
 </div>
+
+<div *ngIf="employees?.length == 0" class="alert alert-primary" role="alert">
+  You have no employees. Click the add employee tab at the top to add a new
+  employee.
+</div>
