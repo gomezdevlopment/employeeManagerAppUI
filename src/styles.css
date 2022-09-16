@@ -44,3 +44,11 @@ a {
   height: 100px;
   width: 100px;
 }
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
